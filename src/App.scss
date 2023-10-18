@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Pretendard';
+}
+
+#root {
+  height: 100%;
+}
+
+.intro {
+  height: 100%;
+  background: radial-gradient(110.65% 216.99% at 57.57% 31.89%, #253C5C 0%, #000002 100%);
+  text-align: center;
+  h2 {
+    color: #ffc200;
+    font-size: 3rem;
+    margin: 0;
+  }
+}
+
+button {
+  height: 3.75rem;
+  background: #d9d9d9;
+  border: none;
+  font-size: 1.75rem;
+  padding: 0 2rem;
+}
