@@ -1,11 +1,9 @@
 import { BrpwserRouter, Route, Routes } from 'react-router-dom';
 
-function Result() {
+export default function Result() {
   return (
     <div className="intro">
-        intro
+        result
     </div>
   );
 }
-
-export default Result;
