@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
@@ -9,21 +15,67 @@ body {
   height: 100%;
 }
 
+.flex {
+  display: flex;
+  &.column {
+    flex-direction: column;
+  }
+  &.evenly {
+    justify-content: space-evenly;
+  }
+  &.between {
+    justify-content: space-between;
+  }
+}
+
 .intro {
   height: 100%;
   background: radial-gradient(110.65% 216.99% at 57.57% 31.89%, #253C5C 0%, #000002 100%);
   text-align: center;
+  .bg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    img {
+      width: 100%;
+    }
+  }
   h2 {
     color: #ffc200;
-    font-size: 3rem;
+    font-size: 2.75rem;
     margin: 0;
+  }
+  .column {
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2.25rem 3rem;
+    img {
+      width: 75%;
+    }
+  }
+  .evenly {
+    gap: 2rem;
+    margin-top: 1rem;
+    img {
+      height: 1.5rem;
+    }
   }
 }
 
 button {
-  height: 3.75rem;
+  height: 3rem;
   background: #d9d9d9;
   border: none;
-  font-size: 1.75rem;
-  padding: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0 3rem;
 }
