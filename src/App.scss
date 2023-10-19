@@ -26,6 +26,9 @@ body {
   &.between {
     justify-content: space-between;
   }
+  &.center {
+    align-items: center;
+  }
 }
 
 .intro {
@@ -69,6 +72,35 @@ body {
       height: 1.5rem;
     }
   }
+}
+
+.main {
+  height: 100%;
+  padding: 3rem 2.5rem 2rem;
+  font-size: 2.25rem;
+  h3 {
+    font-size: 2.25rem;
+  }
+  p {
+    font-weight: 600;
+    word-break: keep-all;
+  }
+  ol {
+    margin-top: 3rem;
+    li {
+      margin-bottom: .75rem;
+    }
+  }
+  button {
+    margin: 0 auto;
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 button {
