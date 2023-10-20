@@ -1,5 +1,3 @@
-import { useNavigate, useLocation } from "react-router-dom";
-
 import FinalImg from "../img/img_final.svg";
 
 export default function Result() {
