@@ -26,8 +26,7 @@ export default function Quiz(){
 	const navigate = useNavigate();
 	const [ selectedValue, setValue ] = useState('');
 	
-  const onChange = useCallback(
-    (e) => {
+  const onChange = useCallback(e => {
       setValue(e.target.value);
     }
   );

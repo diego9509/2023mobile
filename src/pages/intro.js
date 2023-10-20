@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 
 import ImgTop from '../img/img_top.svg';
-import ImgCenter from '../img/img_center.svg';
+import ImgCenter from '../img/img_center.png';
 import ImgBottom from '../img/img_bottom.svg';
 import ImgTitle from '../img/img_title.svg';
 import ImgLogo01 from '../img/logo_moe.svg';
