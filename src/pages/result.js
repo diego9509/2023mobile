@@ -2,7 +2,6 @@ import { useNavigate, useLocation } from "react-router-dom";
 
 import CorrectImg from "../img/img_correct.svg";
 import InCorrectImg from "../img/img_incorrect.svg";
-import FinalImg from "../img/img_final.svg";
 
 export default function Result() {
 
