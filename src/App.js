@@ -5,7 +5,6 @@ import Quiz from './pages/quiz';
 import Result from './pages/result';
 import Final from './pages/final';
 
-import './font/pretendard-subset.css';
 import './App.scss';
 
 function App() {
