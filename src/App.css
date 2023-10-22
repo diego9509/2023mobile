@@ -1,0 +1,215 @@
+/*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-display: swap;
+  src: local("Pretendard Bold"), url("./font/Pretendard-Bold.subset.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-display: swap;
+  src: local("Pretendard SemiBold"), url("./font/Pretendard-SemiBold.subset.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-display: swap;
+  src: local("Pretendard Medium"), url("./font/Pretendard-Medium.subset.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-display: swap;
+  src: local("Pretendard Regular"), url("./font/Pretendard-Regular.subset.woff2") format("woff2");
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Pretendard";
+}
+
+#root {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.evenly {
+  justify-content: space-evenly;
+}
+.flex.between {
+  justify-content: space-between;
+}
+.flex.center {
+  align-items: center;
+}
+
+.intro {
+  height: 100%;
+  background: radial-gradient(110.65% 216.99% at 57.57% 31.89%, #253C5C 0%, #000002 100%);
+  text-align: center;
+}
+.intro .bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.intro .bg img {
+  width: 100%;
+}
+.intro h2 {
+  color: #ffc200;
+  font-size: 2.75rem;
+  margin: 0;
+}
+.intro .column {
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2.25rem 3rem;
+}
+.intro .column img {
+  width: 75%;
+}
+.intro .evenly {
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.intro .evenly img {
+  height: 1.5rem;
+}
+
+.main {
+  min-height: 100%;
+  padding: 3rem 2.5rem 2rem;
+  font-size: 2.25rem;
+}
+.main h3 {
+  font-size: 2rem;
+  letter-spacing: -0.025rem;
+}
+.main p {
+  font-weight: 600;
+  word-break: keep-all;
+}
+.main ol {
+  margin-top: 3rem;
+}
+.main ol li {
+  margin-bottom: 0.75rem;
+}
+.main button {
+  margin: 0 auto;
+}
+.main img {
+  margin: 0 auto;
+}
+.main input[type=text] {
+  display: block;
+  width: 100%;
+  height: 2.25rem;
+  border-radius: 9999px;
+  border: 1px solid #777;
+  padding: 0 1rem;
+}
+.main input[type=text] + input[type=text] {
+  margin-top: 1.25rem;
+}
+.main.result {
+  padding: 2rem 1.5rem 1rem;
+}
+.main.result h3 {
+  text-align: center;
+}
+.main.result img {
+  display: block;
+  width: 62.5%;
+  margin: 0 auto;
+}
+.main.result label {
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1.5rem;
+}
+.main.result p,
+.main.result ul {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #424242;
+  word-break: keep-all;
+}
+.main.result ul {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #666;
+}
+.main.result ul li + li {
+  margin-top: 0.125rem;
+}
+.main.result hr {
+  height: 0px;
+  border: none;
+  border-top: 1px solid #bbb;
+  margin: 1rem 0;
+}
+.main.result button {
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+}
+.main .incorrect {
+  text-align: center;
+}
+.main .incorrect img {
+  margin-bottom: 3rem;
+}
+.main .incorrect + p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: "Pretendard";
+  height: 3rem;
+  background: #d9d9d9;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0 3rem;
+}/*# sourceMappingURL=App.css.map */
